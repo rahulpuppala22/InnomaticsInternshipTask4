@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #cf2e2e;
+    color: white;
+    padding: 5px 5%;
+    align-items: center;
+}
+
+.main-phone{
+    display: flex;
+    align-items: center;
+}
+
+.main-phone span {
+    margin-right: 10px;
+}
+
+.main-phone a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.alternate-phone a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0px 1px 20px #999;
+}
+
+.navbar img{
+    width: 400px;
+}
+
+.navbar ul{
+    display: flex;
+    /* align-items: center; */
+    list-style: none;
+}
+
+.navbar ul li{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.navbar button {
+    background-color: black;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 1.5em;
+    padding: 0  20px;
+    border-radius: 20px;
+}
+
+.content{
+    margin-top: 110px;
+}
+
+.agenda{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+.agenda .description{
+    margin-right: 5%;
+    text-align: justify;
+    font-size: 18px;
+    
+}
+
+.agenda .description button{
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #cf2e2e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.agenda strong{
+    color: #cf2e2e;
+}
+
+.agenda-card .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.agenda-card .cards div{
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.agenda-card .cards div:hover{
+    border-bottom: 3px solid #cf2e2e;
+}
+
+
+.agenda-card .cards svg{
+    height: 100px;
+    width: 100px;
+    color: #cf2e2e;
+}
+
+.trending-courses{
+    padding-top: 2%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.trending-courses .cards {
+    margin-top: 2%;
+    display: flex;
+}
+
+.trending-courses .cards img{
+    width: 300px;
+}
+
+.trending-courses .card {
+    margin: 15px;
+    border: 1px solid white;
+}
+
+.trending-courses .card button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.advantages{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ededed;
+    padding: 20px;
+}
+
+.advantages .advantage-list h2{
+    text-align: center;
+
+}
+
+.advantages .advantage-list ul{
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 135%;
+    padding: 20px;
+    line-height: 2;
+}
+
+.advantages .advantage-video {
+    text-align: center;
+    margin-right: 20%;
+}
+
+.advantages .advantage-video iframe{
+    text-align: center;
+    width: 200%;
+    height: 75%;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.advantages .advantage-video button {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.5rem;
+    border: 2px solid #cf2e2e;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.training{
+    text-align: center;
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.training .training-btn{
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#btn1{
+    background-color: #cf2e2e;
+}
+
+.training .training-btn button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.training .training-btn button:hover{
+    background-color: #cf2e2e;
+}
+
+.training .training-info{
+    display: flex;
+    /* align-items: center; */
+    text-align: justify;
+    margin: 20px 50px;
+    padding: 50px;
+    padding-bottom: 0;
+    background-color: white;
+    height: 200px;
+    font-size: large;
+}
+
+.experts{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 30px;
+    color: white;
+    align-items: center;
+}
+
+.experts button{
+    background-color: #cf2e2e;
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.review{
+    background-color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+.review .student-review{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px 10%;
+    color: #373333;
+    margin: 20px 10%;
+    line-height: 1.5;
+}
+
+.review button {
+    padding: 15px 25px;
+    background-color: #373333;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.success-story{
+    padding: 50px;
+    text-align: center;
+    background-color: #f5f5f5;;
+}
+
+.success-story .cards img{
+    width: 250px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.success-story .cards img:hover{
+    filter: blur(1px);
+    
+}
+
+.success-story .cards {
+    display: flex;
+    padding: 5%;
+    border-bottom: 1px solid #ccc;
+}
+
+.success-story .continue{
+    margin-top: 10px;
+    font-weight: bold;
+    word-spacing: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.success-story .continue li{
+    list-style: none;
+}
+
+.news{
+    text-align: center;
+    padding: 50px;
+}
+
+.news .cards{
+    display: flex;
+}
+
+.news .cards .card{
+    margin: 10px;
+    border: 2px dotted black;
+}
+.news a{
+    position: absolute;
+    left: 50px;
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+footer .info {
+    margin-right: 15%;
+}
+
+footer .info img{
+    width: 500px;
+}
+
+footer .info p{
+    margin-left: 5%;
+    width: 500px;
+}
+
+footer .info svg{
+    margin-left: 5%;
+}
+
+footer .about{
+    margin-right: 5%;
+}
+
+footer .about h2{
+    margin-top: 5%;
+    color: #cf2e2e;
+}
+
+footer .about ul{
+    line-height: 1.5;
+    margin-top: 5%;
+    list-style: none;
+}
+
+footer .contact{
+    width: 500px;
+}
+
+footer .contact svg {
+    width: 100px;
+    color: #cf2e2e;
+}
+footer .contact div{
+    display: flex;
+    text-align: justify;
+}
